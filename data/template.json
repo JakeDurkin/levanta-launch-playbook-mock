@@ -1,0 +1,551 @@
+[
+ {
+  "title": "Sign MSA and SOW",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:exec",
+  "owner": "<Exec sponsor>",
+  "due": "L-20",
+  "doneWhen": "Countersigned PDF in 01 Contract"
+ },
+ {
+  "title": "Complete the Commercial Terms Sheet",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:exec",
+  "owner": "<Exec sponsor>",
+  "due": "L-20",
+  "doneWhen": "Every field answered, signed off by Legal and Finance"
+ },
+ {
+  "title": "Define Tracked GMV with two worked examples",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "L-20",
+  "doneWhen": "Partner agrees in writing"
+ },
+ {
+  "title": "Agree CSM coverage model with partner",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:cs",
+  "owner": "<CS lead>",
+  "due": "L-20",
+  "doneWhen": "Tiers and counts written in the terms sheet"
+ },
+ {
+  "title": "Name Launch PM, account owner and all roles",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:pm",
+  "owner": "<Exec sponsor>",
+  "due": "L-20",
+  "doneWhen": "Section 4 table filled"
+ },
+ {
+  "title": "Open four Slack channels and pin rules",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-20",
+  "doneWhen": "Partner invited, rules pinned"
+ },
+ {
+  "title": "Create Drive folder from layout",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-20",
+  "doneWhen": "Linked in project resources"
+ },
+ {
+  "title": "Partner vendor setup and POs",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "L-19",
+  "doneWhen": "PO numbers in Linear"
+ },
+ {
+  "title": "Create Stripe customer and invoice schedule",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "L-19",
+  "doneWhen": "Schedule issues created"
+ },
+ {
+  "title": "Supplier and creator overlap analysis",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:creator",
+  "owner": "<Creator lead>",
+  "due": "L-18",
+  "doneWhen": "List in 07 Reporting"
+ },
+ {
+  "title": "Kickoff call with partner",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-19",
+  "doneWhen": "Recap posted"
+ },
+ {
+  "title": "GATE G1 Kickoff Ready",
+  "phase": "deal",
+  "milestone": "P1 Deal & Kickoff",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-18",
+  "doneWhen": "All P1 issues closed"
+ },
+ {
+  "title": "Discovery and tech requirements doc",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:product",
+  "owner": "<Product lead>",
+  "due": "L-17",
+  "doneWhen": "Linear doc approved by partner eng"
+ },
+ {
+  "title": "Sandbox and API access",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:partner",
+  "owner": "<Partner eng>",
+  "due": "L-17",
+  "doneWhen": "Credentials working"
+ },
+ {
+  "title": "Catalog sync",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-12",
+  "doneWhen": "Full catalog in staging"
+ },
+ {
+  "title": "Order or conversion data pipeline",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-10",
+  "doneWhen": "Test orders matched"
+ },
+ {
+  "title": "Attribution and network links",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-9",
+  "doneWhen": "Links generate with SubIDs"
+ },
+ {
+  "title": "Billing and invoicing logic",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-8",
+  "doneWhen": "Test invoice correct"
+ },
+ {
+  "title": "Network and data-sharing agreements",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:legal-finance",
+  "owner": "<Legal>",
+  "due": "L-12",
+  "doneWhen": "Signed"
+ },
+ {
+  "title": "Monthly milestone and billing check",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:exec",
+  "owner": "<Exec sponsor>",
+  "due": "Monthly",
+  "doneWhen": "Billing matches progress"
+ },
+ {
+  "title": "First production conversion attributed",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "lane:eng",
+  "owner": "<Eng lead>",
+  "due": "L-6",
+  "doneWhen": "Conversion visible in seller and creator reports"
+ },
+ {
+  "title": "GATE G2 Build Accepted (written partner acceptance)",
+  "phase": "build",
+  "milestone": "P2 Technical Integration",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-6",
+  "doneWhen": "Partner email or signature saved"
+ },
+ {
+  "title": "Plan and fee display rules for each account type",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:product",
+  "owner": "<Product lead>",
+  "due": "L-8",
+  "doneWhen": "Spec approved; no Levanta fee on partner-funded accounts"
+ },
+ {
+  "title": "Self-serve payment path",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-6",
+  "doneWhen": "Card payment works"
+ },
+ {
+  "title": "Partner-managed account payment path",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "L-6",
+  "doneWhen": "Invoice or PO tested end to end"
+ },
+ {
+  "title": "Signup route and supplier terms at activation",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:product",
+  "owner": "<Product lead>",
+  "due": "L-6",
+  "doneWhen": "Legal approved"
+ },
+ {
+  "title": "CSV upload with example file",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-5",
+  "doneWhen": "Example uploads cleanly"
+ },
+ {
+  "title": "Logos and brand handling, bulk activation",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-4",
+  "doneWhen": "Bulk tool used by CS"
+ },
+ {
+  "title": "HubSpot properties and Hex dashboard",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:revops",
+  "owner": "<RevOps>",
+  "due": "L-4",
+  "doneWhen": "Dashboard shows test data"
+ },
+ {
+  "title": "First-brand alert to #new-<mkt>-brands",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:eng",
+  "owner": "<Eng>",
+  "due": "L-3",
+  "doneWhen": "Alert fires on first brand only"
+ },
+ {
+  "title": "UAT with 3 or more test suppliers",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:cs",
+  "owner": "<CS lead>",
+  "due": "L-3",
+  "doneWhen": "Payment and activation complete"
+ },
+ {
+  "title": "Launch-day runbook",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "lane:eng",
+  "owner": "<Eng lead>",
+  "due": "L-2",
+  "doneWhen": "Flags, crons, logs listed"
+ },
+ {
+  "title": "GATE G3 Product Ready",
+  "phase": "readiness",
+  "milestone": "P3 Product Readiness",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-2",
+  "doneWhen": "All P3 issues closed"
+ },
+ {
+  "title": "Terminology and messaging guide",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:marketing",
+  "owner": "<PMM>",
+  "due": "L-12",
+  "doneWhen": "Partner approved"
+ },
+ {
+  "title": "One-pager EN and localized",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:gtm",
+  "owner": "<GTM lead>",
+  "due": "L-6",
+  "doneWhen": "Partner approved"
+ },
+ {
+  "title": "Demo script and chapter videos",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:gtm",
+  "owner": "<GTM lead>",
+  "due": "L-3",
+  "doneWhen": "Published with view tracking"
+ },
+ {
+  "title": "Account setup guide and FAQ",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:cs",
+  "owner": "<CS lead>",
+  "due": "L-4",
+  "doneWhen": "Published"
+ },
+ {
+  "title": "KB article set EN and translations",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:support-kb",
+  "owner": "<Support lead>",
+  "due": "L",
+  "doneWhen": "Live in all languages"
+ },
+ {
+  "title": "CSV upload guide",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:gtm",
+  "owner": "<GTM lead>",
+  "due": "L-3",
+  "doneWhen": "Published"
+ },
+ {
+  "title": "Commission guidance and recommended creator list",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:creator",
+  "owner": "<Creator lead>",
+  "due": "L-2",
+  "doneWhen": "Shared with CS"
+ },
+ {
+  "title": "Internal training by persona",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:gtm",
+  "owner": "<GTM lead>",
+  "due": "L-3",
+  "doneWhen": "Attendance logged; not during month-end"
+ },
+ {
+  "title": "Partner rep training",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:partner",
+  "owner": "<Partner PM>",
+  "due": "L-2",
+  "doneWhen": "Held"
+ },
+ {
+  "title": "APAC localized training",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "lane:apac",
+  "owner": "<APAC lead>",
+  "due": "L-2",
+  "doneWhen": "Held, clear of local holidays"
+ },
+ {
+  "title": "GATE G4 Enablement Ready",
+  "phase": "enablement",
+  "milestone": "P4 Assets & Enablement",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-1",
+  "doneWhen": "All P4 issues closed"
+ },
+ {
+  "title": "Ranked supplier list and tiers",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:partner",
+  "owner": "<Partner PM>",
+  "due": "L-4",
+  "doneWhen": "Loaded in handoff sheet"
+ },
+ {
+  "title": "Assign CSMs to top tier",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:cs",
+  "owner": "<CS lead>",
+  "due": "L-2",
+  "doneWhen": "Owner on every top-tier row"
+ },
+ {
+  "title": "Connect priority creators and publishers",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:creator",
+  "owner": "<Creator lead>",
+  "due": "L-2",
+  "doneWhen": "Connected"
+ },
+ {
+  "title": "Landing page, blog, press, social",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:marketing",
+  "owner": "<Marketing lead>",
+  "due": "L-1",
+  "doneWhen": "Scheduled for embargo time"
+ },
+ {
+  "title": "Readiness scorecard and Go/No-Go",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L-1",
+  "doneWhen": "Score 85 or higher, no red must-haves"
+ },
+ {
+  "title": "Soft launch: flip flag, watch logs 48 hours",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:eng",
+  "owner": "<Eng lead>",
+  "due": "L",
+  "doneWhen": "No Sev1"
+ },
+ {
+  "title": "Marketing launch (partner leads)",
+  "phase": "recruit",
+  "milestone": "P5 Recruitment & Launch",
+  "label": "lane:marketing",
+  "owner": "<Marketing lead>",
+  "due": "L+1",
+  "doneWhen": "Live"
+ },
+ {
+  "title": "Daily triage",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L to L+2",
+  "doneWhen": "Daily list in Linear"
+ },
+ {
+  "title": "New-brands rank flow",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "lane:cs",
+  "owner": "<CS lead>",
+  "due": "L to L+6",
+  "doneWhen": "Every first brand ranked within 1 business day"
+ },
+ {
+  "title": "Partner follow-up list",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L to L+6",
+  "doneWhen": "Every ask answered in 48 hours"
+ },
+ {
+  "title": "Data reconciliation vs partner",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "lane:product",
+  "owner": "<Product lead>",
+  "due": "Weekly",
+  "doneWhen": "Gap under 2%"
+ },
+ {
+  "title": "First invoice cycle review",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "L+4",
+  "doneWhen": "No unexplained overdue invoices"
+ },
+ {
+  "title": "GATE G6 Hypercare Exit",
+  "phase": "hypercare",
+  "milestone": "P6 Hypercare",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L+6",
+  "doneWhen": "2 weeks with no Sev1 or Sev2"
+ },
+ {
+  "title": "Monthly Tracked GMV report",
+  "phase": "steady",
+  "milestone": "P7 Steady State",
+  "label": "lane:revops",
+  "owner": "<RevOps>",
+  "due": "Monthly",
+  "doneWhen": "Sent to partner with method"
+ },
+ {
+  "title": "Quarterly invoicing",
+  "phase": "steady",
+  "milestone": "P7 Steady State",
+  "label": "lane:legal-finance",
+  "owner": "<Finance>",
+  "due": "Quarterly",
+  "doneWhen": "Sent and paid"
+ },
+ {
+  "title": "Retro and playbook update",
+  "phase": "steady",
+  "milestone": "P7 Steady State",
+  "label": "lane:pm",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L+8",
+  "doneWhen": "This doc updated"
+ },
+ {
+  "title": "GATE G7 Running",
+  "phase": "steady",
+  "milestone": "P7 Steady State",
+  "label": "type:gate",
+  "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+  "due": "L+8",
+  "doneWhen": "First KPI report accepted"
+ }
+]

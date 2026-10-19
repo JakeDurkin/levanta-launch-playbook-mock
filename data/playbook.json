@@ -1,0 +1,1131 @@
+{
+ "phases": [
+  {
+   "key": "deal",
+   "n": 1,
+   "name": "Deal and SOW",
+   "full": "Deal, SOW and Kickoff",
+   "timing": "L-24 to L-18 weeks",
+   "start": -24,
+   "end": -18,
+   "gate": "G1",
+   "gateName": "Kickoff Ready",
+   "accountable": "Exec sponsor until signature, then the Launch PM",
+   "wfOwner": "Rob Schab (Exec sponsor) \u2192 Jake Durkin (Launch PM)",
+   "checklist": [
+    "SOW signed",
+    "Commercial Terms Sheet complete and signed off by Exec, Legal and Finance",
+    "Every role named",
+    "Linear project and Slack channels live",
+    "First partner sync held"
+   ],
+   "wf": "SOW signed May 19 and 20, 2026 [C]. Linear project created May 21 from Rob's Excel task list [C]. Terms sheet questions answered later and piecemeal [C].",
+   "wfGate": [
+    "done",
+    "open",
+    "open",
+    "done",
+    "done"
+   ]
+  },
+  {
+   "key": "build",
+   "n": 2,
+   "name": "Build",
+   "full": "Technical Integration",
+   "timing": "L-18 to L-6 weeks",
+   "start": -18,
+   "end": -6,
+   "gate": "G2",
+   "gateName": "Build Accepted",
+   "accountable": "Product lead",
+   "wfOwner": "Neehar Swali",
+   "checklist": [
+    "A real production conversion is attributed end to end",
+    "Partner confirms acceptance in writing"
+   ],
+   "wf": "First attributed conversion Aug 5 [C]. Go-live slipped from early September to Oct 5 because of partner-side feed and tracking changes [C]. No written acceptance record found [I, confirm with Rob or Neehar].",
+   "wfGate": [
+    "done",
+    "unknown"
+   ]
+  },
+  {
+   "key": "readiness",
+   "n": 3,
+   "name": "Readiness",
+   "full": "Product Readiness and UAT",
+   "timing": "L-8 to L-2 weeks",
+   "start": -8,
+   "end": -2,
+   "gate": "G3",
+   "gateName": "Product Ready",
+   "accountable": "Product lead, with the CS lead for test suppliers",
+   "wfOwner": "Neehar Swali (Product); Oliver Albee / TJ Spero (CS)",
+   "checklist": [
+    "3 or more test suppliers completed signup, payment and product activation without engineering workarounds",
+    "Fee display verified on every account type",
+    "Dashboards show real data"
+   ],
+   "wf": "Beta stalled on Stripe for test suppliers [C]. \"Levanta Fees\" and a 3.5% fee showed on Wayfair accounts after launch [C]. Managed account could not pay by Stripe; restriction bypassed Oct 9 [C].",
+   "wfGate": [
+    "open",
+    "open",
+    "done"
+   ]
+  },
+  {
+   "key": "enablement",
+   "n": 4,
+   "name": "Enablement",
+   "full": "Assets and Enablement",
+   "timing": "L-10 to L-1 weeks",
+   "start": -10,
+   "end": -1,
+   "gate": "G4",
+   "gateName": "Enablement Ready",
+   "accountable": "GTM Enablement lead",
+   "wfOwner": "Jake Durkin",
+   "checklist": [
+    "Partner has approved the asset kit",
+    "KB is live in all launch languages",
+    "Every internal team trained, attendance logged"
+   ],
+   "wf": "Sep 29 internal enablement drew feedback: no clear \"why\", unclear audience, no objection handling, landed at month-end [C]. KB (EN, ZH) published Oct 5 [C]. Wayfair trained SAMs Oct 1 [C].",
+   "wfGate": [
+    "unknown",
+    "done",
+    "open"
+   ]
+  },
+  {
+   "key": "recruit",
+   "n": 5,
+   "name": "Recruitment and Launch",
+   "full": "Supplier Recruitment and Launch",
+   "timing": "L-4 to L+1 weeks",
+   "start": -4,
+   "end": 1,
+   "gate": "G5",
+   "gateName": "Go/No-Go",
+   "accountable": "Launch PM",
+   "wfOwner": "Jake Durkin",
+   "checklist": [
+    "Readiness scorecard 85% or higher",
+    "No red must-haves",
+    "Both launch dates clear of partner code freezes, regional holidays and month-end"
+   ],
+   "wf": "Connection opened to all suppliers Oct 5. Marketing launch Oct 13 at 8am ET, Wayfair leading [C]. APAC holiday Oct 1 to 7 ran over the soft launch [C]. Scored on Oct 5, Wayfair would have landed around 55 to 60% [I].",
+   "wfGate": [
+    "open",
+    "open",
+    "open"
+   ]
+  },
+  {
+   "key": "hypercare",
+   "n": 6,
+   "name": "Hypercare",
+   "full": "Hypercare",
+   "timing": "L to L+6 weeks",
+   "start": 0,
+   "end": 6,
+   "gate": "G6",
+   "gateName": "Hypercare Exit",
+   "accountable": "Launch PM, with the CS lead",
+   "wfOwner": "Jake Durkin (PM), with CS",
+   "checklist": [
+    "2 straight weeks with no Sev1 or Sev2",
+    "Partner follow-up list closed or scheduled",
+    "Activation on pace against target"
+   ],
+   "wf": "Hypercare is live. Emily's Oct 14 list is open, 10 to 13% order-feed gap, CJ price corrections blocked by Wayfair code freeze [C]. Oct 13: 151 activations vs October target of 45 [C].",
+   "wfGate": [
+    "unknown",
+    "open",
+    "done"
+   ]
+  },
+  {
+   "key": "steady",
+   "n": 7,
+   "name": "Steady State",
+   "full": "Steady State",
+   "timing": "L+6 weeks onward",
+   "start": 6,
+   "end": 8,
+   "gate": "G7",
+   "gateName": "Running",
+   "accountable": "Account owner",
+   "wfOwner": "Stacey Georgoulis",
+   "checklist": [
+    "First monthly KPI report delivered and accepted",
+    "Invoicing on schedule",
+    "Retro done and playbook updated"
+   ],
+   "wf": "KPI: at least $7.5M Tracked GMV a month for 2 straight months, first period months 7 to 18 after commencement [C].",
+   "wfGate": [
+    "open",
+    "open",
+    "open"
+   ]
+  }
+ ],
+ "teams": [
+  "PM",
+  "Exec",
+  "Legal/Fin",
+  "Prod/Eng",
+  "GTM",
+  "Mktg",
+  "CS/APAC",
+  "Support/KB",
+  "Creator",
+  "Partner"
+ ],
+ "raci": [
+  {
+   "activity": "SOW, MSA, pricing",
+   "cells": [
+    "C",
+    "A",
+    "R",
+    "C",
+    "I",
+    "I",
+    "C",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Commercial Terms Sheet",
+   "cells": [
+    "R",
+    "A",
+    "R",
+    "C",
+    "C",
+    "I",
+    "C",
+    "I",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "activity": "Linear project, channels, cadence",
+   "cells": [
+    "A",
+    "I",
+    "I",
+    "C",
+    "C",
+    "I",
+    "C",
+    "I",
+    "I",
+    "I"
+   ]
+  },
+  {
+   "activity": "Tech requirements and build",
+   "cells": [
+    "C",
+    "I",
+    "I",
+    "A",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Network and data-sharing contracts",
+   "cells": [
+    "C",
+    "A",
+    "R",
+    "C",
+    "I",
+    "I",
+    "I",
+    "I",
+    "C",
+    "R"
+   ]
+  },
+  {
+   "activity": "Change orders and milestone billing",
+   "cells": [
+    "R",
+    "A",
+    "R",
+    "C",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "C"
+   ]
+  },
+  {
+   "activity": "Partner written acceptance",
+   "cells": [
+    "R",
+    "A",
+    "C",
+    "R",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Plan, fees and payments setup",
+   "cells": [
+    "C",
+    "C",
+    "R",
+    "A",
+    "I",
+    "I",
+    "C",
+    "I",
+    "I",
+    "C"
+   ]
+  },
+  {
+   "activity": "UAT with test suppliers",
+   "cells": [
+    "R",
+    "I",
+    "I",
+    "A",
+    "C",
+    "I",
+    "R",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Program name, terminology, messaging",
+   "cells": [
+    "C",
+    "C",
+    "C",
+    "I",
+    "R",
+    "A",
+    "I",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Asset kit (one-pager, demos, decks)",
+   "cells": [
+    "C",
+    "I",
+    "I",
+    "C",
+    "A",
+    "R",
+    "C",
+    "C",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "activity": "KB articles and translation",
+   "cells": [
+    "I",
+    "I",
+    "I",
+    "C",
+    "A",
+    "I",
+    "C",
+    "R",
+    "I",
+    "C"
+   ]
+  },
+  {
+   "activity": "Internal training",
+   "cells": [
+    "C",
+    "I",
+    "I",
+    "C",
+    "A",
+    "C",
+    "R",
+    "R",
+    "R",
+    "I"
+   ]
+  },
+  {
+   "activity": "Partner and APAC training",
+   "cells": [
+    "C",
+    "I",
+    "I",
+    "C",
+    "R",
+    "I",
+    "A",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "CSM coverage model and assignment",
+   "cells": [
+    "C",
+    "C",
+    "I",
+    "I",
+    "C",
+    "I",
+    "A",
+    "I",
+    "I",
+    "C"
+   ]
+  },
+  {
+   "activity": "Creator and publisher readiness",
+   "cells": [
+    "C",
+    "I",
+    "I",
+    "C",
+    "C",
+    "I",
+    "I",
+    "I",
+    "A",
+    "C"
+   ]
+  },
+  {
+   "activity": "Landing page, blog, press, social",
+   "cells": [
+    "I",
+    "C",
+    "C",
+    "C",
+    "C",
+    "A",
+    "I",
+    "I",
+    "I",
+    "R"
+   ]
+  },
+  {
+   "activity": "Go/No-Go",
+   "cells": [
+    "A",
+    "R",
+    "C",
+    "R",
+    "R",
+    "R",
+    "R",
+    "C",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "activity": "Hypercare triage and follow-ups",
+   "cells": [
+    "A",
+    "I",
+    "I",
+    "R",
+    "C",
+    "I",
+    "R",
+    "R",
+    "C",
+    "C"
+   ]
+  },
+  {
+   "activity": "Invoicing and collections",
+   "cells": [
+    "I",
+    "C",
+    "A",
+    "C",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "C"
+   ]
+  },
+  {
+   "activity": "Monthly KPI and GMV reporting",
+   "cells": [
+    "C",
+    "A",
+    "C",
+    "R",
+    "I",
+    "I",
+    "C",
+    "I",
+    "I",
+    "I"
+   ]
+  }
+ ],
+ "roles": [
+  {
+   "role": "Exec sponsor / deal owner",
+   "wayfair": "Rob Schab (COO). Signed the SOW.",
+   "next": "<Exec sponsor>"
+  },
+  {
+   "role": "CEO, signer for network agreements",
+   "wayfair": "Ian Brodie",
+   "next": "<Signer>"
+  },
+  {
+   "role": "Launch PM (single owner)",
+   "wayfair": "Jake Durkin. Early PM work by Tracy Smith.",
+   "next": "Stacey (likely default PM, pending Jake's sign-off)"
+  },
+  {
+   "role": "Product lead and partner technical POC",
+   "wayfair": "Neehar Swali",
+   "next": "<Product lead>"
+  },
+  {
+   "role": "Engineering",
+   "wayfair": "Veronica Valenzuela, Jordan Zax, Buck Rivard",
+   "next": "<Eng lead> + <Eng>"
+  },
+  {
+   "role": "Design",
+   "wayfair": "Reina Pinto [I]",
+   "next": "<Designer>"
+  },
+  {
+   "role": "GTM Enablement lead",
+   "wayfair": "Jake Durkin",
+   "next": "Jake"
+  },
+  {
+   "role": "Marketing and web",
+   "wayfair": "Richie Carreon, Isaiah (PMM), Hamid Nawab (web)",
+   "next": "<Marketing lead>"
+  },
+  {
+   "role": "CS lead",
+   "wayfair": "Oliver Albee; TJ Spero",
+   "next": "<CS lead>"
+  },
+  {
+   "role": "APAC CS",
+   "wayfair": "Kelton Von, Rocky Liang, Owen Guetschow",
+   "next": "<APAC lead>"
+  },
+  {
+   "role": "Support and KB",
+   "wayfair": "Angelo Ilagan (EN), Jenny, Emma (ZH)",
+   "next": "<Support lead>"
+  },
+  {
+   "role": "Creator and publisher",
+   "wayfair": "Jamie Hamerly, Sarah Haege",
+   "next": "<Creator lead>"
+  },
+  {
+   "role": "Finance",
+   "wayfair": "Jinal (VP Finance)",
+   "next": "<Finance>"
+  },
+  {
+   "role": "Legal",
+   "wayfair": "Maya Choksi; outside counsel Peter",
+   "next": "<Legal>"
+  },
+  {
+   "role": "Revenue data (Hex, HubSpot)",
+   "wayfair": "TJ Spero, Neehar Swali",
+   "next": "<RevOps>"
+  },
+  {
+   "role": "Managed-account owner",
+   "wayfair": "Nobody named (gap)",
+   "next": "<Managed account owner>"
+  },
+  {
+   "role": "Partner: program owner",
+   "wayfair": "Emily Proulx",
+   "next": "<Partner PM> + backup"
+  },
+  {
+   "role": "Partner: commercial lead",
+   "wayfair": "Megan Schimmel",
+   "next": "<Partner commercial>"
+  },
+  {
+   "role": "Partner: ops",
+   "wayfair": "Chloe Doyle",
+   "next": "<Partner ops>"
+  },
+  {
+   "role": "Partner: engineering and data",
+   "wayfair": "Pranab, Chris F., Sagar",
+   "next": "<Partner eng>"
+  },
+  {
+   "role": "Partner: APAC coordinator",
+   "wayfair": "Thea",
+   "next": "<Partner APAC>"
+  }
+ ],
+ "assets": [
+  {
+   "id": "A1",
+   "name": "Commercial Terms Sheet (internal)",
+   "owner": "Exec + PM",
+   "due": "L-20",
+   "lang": "EN",
+   "wf": "Did not exist"
+  },
+  {
+   "id": "A2",
+   "name": "Terminology and messaging guide",
+   "owner": "PMM",
+   "due": "L-12",
+   "lang": "EN",
+   "wf": "Supplier not seller, affiliate not creator"
+  },
+  {
+   "id": "A3",
+   "name": "Supplier one-pager",
+   "owner": "GTM",
+   "due": "L-6",
+   "lang": "EN, ZH",
+   "wf": "One-Pager v3, Oct 13"
+  },
+  {
+   "id": "A4",
+   "name": "Partner rep one-pager (CS value)",
+   "owner": "CS",
+   "due": "L-8",
+   "lang": "EN, ZH",
+   "wf": "CS Value one-pager, Jul 21"
+  },
+  {
+   "id": "A5",
+   "name": "Partner sales deck for their reps",
+   "owner": "GTM + Partner",
+   "due": "L-4",
+   "lang": "EN",
+   "wf": "Wayfair GTM Deck and supplier deck"
+  },
+  {
+   "id": "A6",
+   "name": "Internal training decks by persona",
+   "owner": "GTM",
+   "due": "L-3",
+   "lang": "EN",
+   "wf": "Internal Enablement Sep 29"
+  },
+  {
+   "id": "A7",
+   "name": "APAC training deck",
+   "owner": "APAC lead",
+   "due": "L-3",
+   "lang": "ZH",
+   "wf": "Rocky's 10-slide Chinese deck, Oct 15"
+  },
+  {
+   "id": "A8",
+   "name": "Demo script",
+   "owner": "GTM",
+   "due": "L-4",
+   "lang": "EN",
+   "wf": "Wayfair Arcade demo, Sep 25"
+  },
+  {
+   "id": "A9",
+   "name": "Demo videos in chapters",
+   "owner": "GTM",
+   "due": "L-3",
+   "lang": "EN, ZH subtitles",
+   "wf": "Split into 3 chapters Oct 6"
+  },
+  {
+   "id": "A10",
+   "name": "Account setup guide",
+   "owner": "CS",
+   "due": "L-4",
+   "lang": "EN, ZH",
+   "wf": "10-step Account Setup Guide"
+  },
+  {
+   "id": "A11",
+   "name": "KB article set",
+   "owner": "Support",
+   "due": "L",
+   "lang": "EN, ZH",
+   "wf": "Published Oct 5"
+  },
+  {
+   "id": "A12",
+   "name": "CSV product upload guide + example file",
+   "owner": "Product + GTM",
+   "due": "L-3",
+   "lang": "EN, ZH",
+   "wf": "CSV demo script Oct 15; LEV-5671"
+  },
+  {
+   "id": "A13",
+   "name": "FAQ: supplier, creator, internal",
+   "owner": "GTM + Support",
+   "due": "L-3",
+   "lang": "EN, ZH",
+   "wf": "FAQ tab in the GTM doc"
+  },
+  {
+   "id": "A14",
+   "name": "Commission guidance by category",
+   "owner": "CS + Creator",
+   "due": "L-4",
+   "lang": "EN",
+   "wf": "Shared Sep 16"
+  },
+  {
+   "id": "A15",
+   "name": "Recommended creator list",
+   "owner": "Creator",
+   "due": "L-2",
+   "lang": "EN",
+   "wf": "Item 1 on Emily's list, still open"
+  },
+  {
+   "id": "A16",
+   "name": "Landing page + signup link",
+   "owner": "Marketing + Eng",
+   "due": "L-2",
+   "lang": "EN",
+   "wf": "Published Oct 13 8am ET"
+  },
+  {
+   "id": "A17",
+   "name": "Blog, press, social, employee social kit",
+   "owner": "Marketing",
+   "due": "L-1",
+   "lang": "EN",
+   "wf": "Blog and LinkedIn Oct 13"
+  },
+  {
+   "id": "A18",
+   "name": "Email templates (4)",
+   "owner": "CS + GTM",
+   "due": "L-2",
+   "lang": "EN, ZH",
+   "wf": "Written fresh in playbook"
+  },
+  {
+   "id": "A19",
+   "name": "Slack announcement templates (4)",
+   "owner": "PM",
+   "due": "L-1",
+   "lang": "EN",
+   "wf": "Written fresh in playbook"
+  },
+  {
+   "id": "A20",
+   "name": "Ranked supplier list + handoff tracker",
+   "owner": "Partner + CS",
+   "due": "L-4",
+   "lang": "EN",
+   "wf": "Emily's priority list and Handoff Tracker"
+  },
+  {
+   "id": "A21",
+   "name": "HubSpot properties + Hex dashboard",
+   "owner": "RevOps",
+   "due": "L-2",
+   "lang": "EN",
+   "wf": "Hex dashboard Oct 7"
+  },
+  {
+   "id": "A22",
+   "name": "Launch-day runbook",
+   "owner": "Eng",
+   "due": "L-1",
+   "lang": "EN",
+   "wf": "Wayfair Release Plan in Notion"
+  },
+  {
+   "id": "A23",
+   "name": "Bio templates, screenshots, case studies",
+   "owner": "GTM",
+   "due": "L-3",
+   "lang": "EN",
+   "wf": "Aug 19 leadership update"
+  },
+  {
+   "id": "A24",
+   "name": "Partner integration value-prop docs (e.g. LTK)",
+   "owner": "Creator",
+   "due": "L+2",
+   "lang": "EN",
+   "wf": "Item 7 on Emily's list"
+  }
+ ],
+ "risks": [
+  {
+   "id": "R1",
+   "risk": "CSM coverage expectations do not match",
+   "prevention": "Coverage model written in the terms sheet before kickoff",
+   "owner": "<CS lead>",
+   "phase": "P1"
+  },
+  {
+   "id": "R2",
+   "risk": "GMV or fee definition is ambiguous",
+   "prevention": "Worked examples in the terms sheet, plus a \"partnered only\" report filter",
+   "owner": "<Finance>",
+   "phase": "P1"
+  },
+  {
+   "id": "R3",
+   "risk": "Partner-managed accounts cannot pay",
+   "prevention": "Payment path tested in P3. Weekly overdue check in P6",
+   "owner": "<Finance>",
+   "phase": "P3"
+  },
+  {
+   "id": "R4",
+   "risk": "Partner POC turnover",
+   "prevention": "Named backups. Decisions logged in Linear",
+   "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+   "phase": "P1"
+  },
+  {
+   "id": "R5",
+   "risk": "Partner data changes push the date",
+   "prevention": "Change-order issues the same day. Buffer between G2 and L",
+   "owner": "<Product lead>",
+   "phase": "P2"
+  },
+  {
+   "id": "R6",
+   "risk": "Data gaps after launch",
+   "prevention": "Reconciliation in G3 and P6. Ask about code freezes at kickoff",
+   "owner": "<Product lead>",
+   "phase": "P6"
+  },
+  {
+   "id": "R7",
+   "risk": "Catalog model mismatch",
+   "prevention": "Discovery questions on brand and ID model in P2",
+   "owner": "<Product lead>",
+   "phase": "P2"
+  },
+  {
+   "id": "R8",
+   "risk": "Wrong fees shown to suppliers",
+   "prevention": "Fee display spec checked on every account type in G3",
+   "owner": "<Product lead>",
+   "phase": "P3"
+  },
+  {
+   "id": "R9",
+   "risk": "Enablement misses the audience",
+   "prevention": "Persona-based training, chapter videos, view tracking",
+   "owner": "<GTM lead>",
+   "phase": "P4"
+  },
+  {
+   "id": "R10",
+   "risk": "Messaging breaks partner rules",
+   "prevention": "A2 terminology guide approved before any asset is built",
+   "owner": "<PMM>",
+   "phase": "P4"
+  },
+  {
+   "id": "R11",
+   "risk": "Regional timing",
+   "prevention": "Holiday check in the terms sheet and the L-12 date lock",
+   "owner": "<APAC lead>",
+   "phase": "P4"
+  },
+  {
+   "id": "R12",
+   "risk": "Tracker sprawl",
+   "prevention": "One tracker, one Drive layout",
+   "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+   "phase": "P1"
+  },
+  {
+   "id": "R13",
+   "risk": "Self-serve legal standing",
+   "prevention": "Legal review of signup terms in P3",
+   "owner": "<Legal>",
+   "phase": "P3"
+  },
+  {
+   "id": "R14",
+   "risk": "Policies that do not agree",
+   "prevention": "All windows written once in the terms sheet and the KB",
+   "owner": "<Product lead>",
+   "phase": "P1"
+  },
+  {
+   "id": "R15",
+   "risk": "Inbound routing is unclear",
+   "prevention": "Sales routing rule set at L-4",
+   "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+   "phase": "P5"
+  },
+  {
+   "id": "R16",
+   "risk": "Billing out of step with build",
+   "prevention": "Monthly milestone check. Variable-fee billing built before L",
+   "owner": "<Finance>",
+   "phase": "P2"
+  },
+  {
+   "id": "R17",
+   "risk": "Partner reopens agreed scope",
+   "prevention": "Terms sheet signed by both sides and pinned in the partner channel",
+   "owner": "<Exec sponsor>",
+   "phase": "P1"
+  },
+  {
+   "id": "R18",
+   "risk": "KPI target missed",
+   "prevention": "Monthly report from L+4. Stacey owns the target",
+   "owner": "<Account owner>",
+   "phase": "P7"
+  },
+  {
+   "id": "R19",
+   "risk": "No owner for open items",
+   "prevention": "No A in the RACI means the work does not start",
+   "owner": "Stacey (likely default PM, pending Jake's sign-off)",
+   "phase": "All"
+  }
+ ],
+ "decisions": [
+  "Approve Linear as the single tracker, and fund Linear seats or guest access for GTM, CS, Support, Marketing and Finance.",
+  "Retire Asana for launch work, and set a date to move the open Wayfair Asana tasks.",
+  "Sign off on Stacey as the default Launch PM for future marketplace launches.",
+  "Name owners for the next launch, starting with the managed-account owner.",
+  "Set the default CSM coverage model to offer partners.",
+  "Pick the Tracked GMV stance to propose by default: Levanta-attributed only, or all network GMV.",
+  "Set the default payment path for partner-managed accounts (invoice or PO, not card).",
+  "Fix one unclaimed escrow window (60 days or 6 months) and one attribution window (7 or 14 days).",
+  "Decide how marketplace-only inbound is routed: CS activation only, or a sales upsell path.",
+  "Approve the channel naming convention and the 85% Go/No-Go bar."
+ ],
+ "asks": [
+  {
+   "n": "1",
+   "item": "Recommended creator lists",
+   "owner": "Oliver (interim PDF), Eng (marketplace-specific groups)",
+   "status": "Interim explained Oct 14; long-term open",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "2",
+   "item": "Logos: bulk or auto, branded suppliers under one brand",
+   "owner": "Neehar, Eng",
+   "status": "Auto logos for about 70 core brands; brand unification planned for November",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "3",
+   "item": "Supplier enrollment walkthrough video",
+   "owner": "Oliver",
+   "status": "In progress",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "4",
+   "item": "SKU upload errors (Bedsure) and CSV section",
+   "owner": "Neehar (modal fix), Jake (LEV-5671, demo script)",
+   "status": "In progress",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "5",
+   "item": "APAC training",
+   "owner": "TJ, Kelton, Rocky; Thea at Wayfair",
+   "status": "Running Oct 16",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "6",
+   "item": "One-pager, including Chinese for WGS",
+   "owner": "Jake (v3), TJ (Chinese)",
+   "status": "v3 done Oct 13, Chinese pending",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "7",
+   "item": "LTK integration value-prop doc",
+   "owner": "Jamie",
+   "status": "Open; LTK paused its Q4 integration",
+   "opened": "2026-10-14"
+  },
+  {
+   "n": "8",
+   "item": "Dedicated managed-account person and weekly working session",
+   "owner": "TBD (no owner named)",
+   "status": "No owner",
+   "opened": "2026-10-14"
+  }
+ ],
+ "scorecard": [
+  {
+   "area": "Commercial",
+   "item": "Terms Sheet complete and signed off",
+   "mh": true
+  },
+  {
+   "area": "Commercial",
+   "item": "Partner written acceptance of the build",
+   "mh": true
+  },
+  {
+   "area": "Commercial",
+   "item": "Invoice schedule and PO numbers in Linear",
+   "mh": false
+  },
+  {
+   "area": "Legal",
+   "item": "Supplier terms shown at signup or activation",
+   "mh": true
+  },
+  {
+   "area": "Technical",
+   "item": "Production conversion attributed end to end",
+   "mh": true
+  },
+  {
+   "area": "Technical",
+   "item": "Feed and sync alerts live",
+   "mh": true
+  },
+  {
+   "area": "Technical",
+   "item": "Order reconciliation gap under 2%",
+   "mh": false
+  },
+  {
+   "area": "Technical",
+   "item": "Launch-day runbook published",
+   "mh": false
+  },
+  {
+   "area": "Product",
+   "item": "Fee display correct on every account type",
+   "mh": true
+  },
+  {
+   "area": "Product",
+   "item": "Self-serve and managed payment paths both tested",
+   "mh": true
+  },
+  {
+   "area": "Product",
+   "item": "CSV upload, logos and bulk activation work",
+   "mh": false
+  },
+  {
+   "area": "Product",
+   "item": "3 or more test suppliers fully live",
+   "mh": true
+  },
+  {
+   "area": "Enablement",
+   "item": "Asset kit approved by partner",
+   "mh": false
+  },
+  {
+   "area": "Enablement",
+   "item": "KB live in every launch language",
+   "mh": true
+  },
+  {
+   "area": "Enablement",
+   "item": "Persona training done, attendance logged",
+   "mh": false
+  },
+  {
+   "area": "Enablement",
+   "item": "Demo videos in chapters with view tracking",
+   "mh": false
+  },
+  {
+   "area": "CS",
+   "item": "CSM coverage model agreed in writing",
+   "mh": true
+  },
+  {
+   "area": "CS",
+   "item": "Top-tier suppliers have a named CSM",
+   "mh": false
+  },
+  {
+   "area": "CS",
+   "item": "Handoff sheet and rank flow live",
+   "mh": false
+  },
+  {
+   "area": "Creator",
+   "item": "Priority publishers connected, creator list ready",
+   "mh": false
+  },
+  {
+   "area": "Ops",
+   "item": "Launch dates clear of freezes, holidays and month-end",
+   "mh": true
+  },
+  {
+   "area": "Ops",
+   "item": "Every RACI row has an A; every Linear issue has an owner",
+   "mh": true
+  },
+  {
+   "area": "Data",
+   "item": "HubSpot fields and Hex dashboard show real data",
+   "mh": false
+  },
+  {
+   "area": "Data",
+   "item": "Partnered-only report filter live",
+   "mh": false
+  }
+ ]
+}
